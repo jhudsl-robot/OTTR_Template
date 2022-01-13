@@ -31,5 +31,5 @@ jobs:
             to delete [your repo name from this file](https://github.com/jhudsl/OTTR_Template/blob/main/.github/sync.yml) if this will continue to be the case.
 
           repo-token: ${{ secrets.GH_PAT }}
-          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          repo-token-user-login: 'jhudsl-robot' # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default
